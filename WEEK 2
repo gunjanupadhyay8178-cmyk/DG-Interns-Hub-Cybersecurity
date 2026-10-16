@@ -1,0 +1,55 @@
+# DG Interns Hub — Cybersecurity Internship Week 2
+
+## Overview
+This repository contains my Week 2 cybersecurity internship work, including network traffic analysis, log analysis, threat mapping, and network monitoring.
+
+## Tasks Completed
+
+### Task 1: Wireshark PCAP Analysis
+- Analysed network packet captures.
+- Examined source and destination IP addresses, HTTP requests, and DNS queries.
+- Documented findings and relevant filters.
+
+### Task 2: Network Traffic Capture
+- Captured network traffic using Wireshark.
+- Practised DNS lookups and connectivity testing.
+- Used filters such as `dns`, `http`, and `tcp.port == 443`.
+
+### Task 3: Linux Log Analysis
+- Investigated authentication events, sudo activity, and system errors using `journalctl`.
+- **Environment note:** This task was performed on Kali Linux. The requested Ubuntu log files were not available in the same locations.
+
+### Task 4: Apache Access Log Analysis
+- Analysed a sample Apache access log.
+- Identified the three most frequent source IP addresses using Linux command-line tools.
+
+### Task 5: MITRE ATT&CK Mapping
+- Mapped phishing to **T1566.002 — Spearphishing Link**.
+- Mapped PowerShell execution to **T1059.001 — PowerShell**.
+- Mapped network service scanning to **T1046 — Network Service Discovery**.
+
+### Task 6: Snort Setup and Traffic Monitoring
+- Installed and tested Snort.
+- Captured network traffic on the `eth0` interface.
+- Created a custom ICMP alert rule.
+- Custom rule loading and alert generation were not fully verified.
+
+## Tools Used
+- Wireshark
+- Kali Linux
+- Linux command-line utilities
+- Snort
+- MITRE ATT&CK
+- Git and GitHub
+
+## Repository Structure
+- `Notes/` — Cybersecurity theory notes
+- `TryHackMe_Writeups/` — TryHackMe room writeups
+- `Findings/` — Task-wise reports and screenshots
+- `Week_2_Report.pdf` — Final report
+- `Week_2_Presentation.pptx` — Internship presentation
+
+## Learning Outcomes
+Practised packet analysis, DNS and HTTP investigation, Linux log analysis, Apache log parsing, MITRE ATT&CK mapping, and basic network monitoring.
+
+*Prepared as part of the DG Interns Hub Cybersecurity Internship — Week 2.*
